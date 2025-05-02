@@ -1,0 +1,38 @@
+.text {
+    color: rgb(0, 21, 255);
+  }
+  
+  .text::selection {
+    color: pink;
+    background-color: blue;
+  }
+  
+  .text::first-letter {
+    font-size: 36px;
+    color: green;
+    font-style: italic;
+  }
+  
+  .text::first-line {
+    font-size: 24px;
+  }
+  
+  .item > p {
+    /* border: solid gre; */
+  }
+  .item > p::after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    display: none;
+    margin-left: 10px;
+    align-items: center;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/599/599516.png");
+    background-size: contain;
+    display: none;
+  }
+  .item > p:hover::after {
+    display: inline-flex;
+  }
+  
