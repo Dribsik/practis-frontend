@@ -1,0 +1,12 @@
+.gradient1{
+height: 300px ;
+width: 500px;
+border: solid red;
+background-image: linear-gradient(to right, rgba(255, 192, 203, 50%),rgba(135, 206, 235, 70%),rgba(128, 0, 128, 10%)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZ3CJTFlfXUjZ_mF6c4AkjWh2aCEl9FLw4Q&s"), url("https://lh4.googleusercontent.com/proxy/C2_ebTkHYUomhhbLP80lzH_-VK9Mc-bCxcnoTpU3YHXxtcNAZdcpl6ahPiFhvj80AS6AemopykKHDAw_gmYHH0ivruo_-6Z-");
+background-repeat: no-repeat; 
+display: flex;
+align-items: center;
+justify-content: center;
+background-position: center, bottom, center ;
+background-size: 100%, 100px, 100%;
+}
